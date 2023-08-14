@@ -1,6 +1,6 @@
 import { Film } from "../types";
 
-const film: Film[] = [
+const films: Film[] = [
   {
     id: 1,
     title: "Viaje a Darjeeling",
@@ -32,4 +32,4 @@ const film: Film[] = [
   },
 ];
 
-export default film;
+export default films;
