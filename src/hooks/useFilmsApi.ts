@@ -11,7 +11,7 @@ const useFilmsApi = () => {
 
       return apiFilms;
     } catch {
-      throw new Error("The films couldn't be loaded");
+      throw new Error("The list of films couldn't be loaded");
     }
   }, [apiUrl]);
 
