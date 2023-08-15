@@ -8,4 +8,5 @@ export interface Film {
 
 export interface FilmsContextStructure {
   films: Film[];
+  loadFilms: () => Promise<void>;
 }
