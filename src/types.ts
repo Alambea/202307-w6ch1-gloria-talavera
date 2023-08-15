@@ -5,8 +5,3 @@ export interface Film {
   director: string;
   year: number;
 }
-
-export interface FilmsContextStructure {
-  films: Film[];
-  loadFilms: () => Promise<void>;
-}
